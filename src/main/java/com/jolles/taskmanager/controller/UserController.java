@@ -42,7 +42,7 @@ public class UserController {
                 .map(assembler::toModel)
                 .collect(Collectors.toList());
 
-        return CollectionModel.of(users, linkTo(methodOn(EmployeeController.class).all()).withSelfRel());
+        return CollectionModel.of(users, linkTo(methodOn(UserController.class).all()).withSelfRel());
     }
 
     @GetMapping("/users/{id}")
