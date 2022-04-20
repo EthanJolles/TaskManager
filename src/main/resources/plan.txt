@@ -1,0 +1,5 @@
+
+TODO Develop very simple front-end react app with landing page and navbar
+TODO Set up model and controller for Task objects
+TODO Connect front and backend
+TODO Figure out how to set up a login
